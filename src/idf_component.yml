@@ -1,0 +1,19 @@
+# ESP-IDF Managed Components Specification
+dependencies:
+  espressif/esp_rainmaker: "^1.5.0"
+  espressif/rmaker_app_network: "^1.4.0"
+  espressif/rmaker_app_insights: "^1.0.0"
+  espressif/mdns: "^1.2.0"
+  esp_idf_lib_helpers:
+    git: https://github.com/UncleRus/esp-idf-lib.git
+    path: components/esp_idf_lib_helpers
+  i2cdev:
+    git: https://github.com/UncleRus/esp-idf-lib.git
+    path: components/i2cdev
+  bmp280:
+    git: https://github.com/UncleRus/esp-idf-lib.git
+    path: components/bmp280
+  tsl2561:
+    git: https://github.com/UncleRus/esp-idf-lib.git
+    path: components/tsl2561
+
